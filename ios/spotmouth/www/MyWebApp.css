@@ -1,0 +1,274 @@
+/** Add css rules here for your application. */
+
+
+.spotnothere {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size: 20px;
+	
+}
+
+
+.rememberMePanel {
+    padding-left:30px;
+}
+
+.loginbuttonpanel {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#fb-root {
+display:none;
+
+}
+.fbpanel {
+	padding:10px;
+}
+
+.fbpanel label {
+font-size: 20px;
+}
+
+.SpotMap .gwt-Label {
+font-size: 20px;
+
+font-weight: bold;
+}
+
+.leaveMarkFormImage {
+
+width:100px;
+}
+
+.ResultsPanel {
+width:100%;
+}
+.SearchForm .whiteButton {
+
+	margin-top:10px;
+}
+
+.SecretKeyForm .whiteButton {
+
+	margin-top:10px;
+}
+
+
+li .gwt-Label {
+text-align:left;
+}
+
+li .gwt-HTML {
+text-align:left;
+}
+.LeaveMarkForm  .whiteButton {
+	margin-top:10px;
+}
+
+.SetLocationManuallyPanel .whiteButton {
+	margin-top:10px;
+}
+.leaveMarkButton 	{
+margin-bottom:50px;
+}
+
+
+.SetLocationManuallyPanel li {
+    background: none;
+}
+
+
+
+li  {
+font-size: 20px;
+
+font-weight: bold;
+    background: url(iui/t/default/listArrow.png) no-repeat right center;
+        padding-right:30px;
+list-style-type: none;        
+}
+
+.about li {
+    background: none;
+}
+
+
+
+fieldset legend {
+  font-size:14pt;
+  font-weight: bold;
+}
+
+
+ label {
+	float:left;
+    font-weight: bold;
+}
+
+
+.panel {
+    background: #c8c8c8 url(iui/t/default/pinstripes.png);
+    padding-bottom:10px !important;
+    padding-right:5px;
+
+    
+}
+
+.row > fieldset .gwt-Label {
+float:left;
+}
+
+
+.previouslocationsdddd .gwt-Label {
+float:left;
+}
+
+.previouslocations .uselocation-Label {
+float:left;
+font-size:8pt;
+}
+
+.previouslocations .remove-Label {
+font-size:8pt;
+}
+
+.h2 {
+  font-size:12pt;
+  font-weight: bold;
+  }
+  
+
+.h1 {
+  font-size:16pt;
+  font-weight: bold;
+  }
+
+.mainImg {
+padding-top:5px;
+padding-bottom:5px;
+widthx:96%;
+width:310px;
+}
+
+.ItemDetailPanel {
+padding-left:5px;
+--width:95%;
+width:310px;
+}
+
+
+.SpotDetailPanel {
+padding-left:5px;
+}
+
+.toolbar .gwt-Label {
+	text-align:center;
+  font-size:16pt;
+  font-weight: bold;
+  color: white;
+  padding-top:5px;
+}
+
+.messagepnl {
+	width:100%;
+	padding-left:10px;
+	border-width:1px;
+	border-style:solid;
+}
+.messagepnl .gwt-Label {
+  font-size:16pt;
+  font-weight: bold;
+
+
+}
+
+.clearing:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.buttonpanel .whiteButton {
+width:90%;
+margin-bottom:2px;
+margin-top:2px;
+}
+.pickspotpnl .gwt-Image{
+float:left;
+padding-right: 10px;
+padding-left:10px;
+}
+
+input {
+/* 
+width threw off the checkbox on mark form
+*/
+	widthxx:90%;
+}
+
+
+textarea {
+	width:90%;
+	height:150px;
+}
+
+.results .gwt-Image{
+float:left;
+padding-right: 10px;
+padding-left:10px;
+}
+
+
+
+.itemsforspot .gwt-Image {
+float:left;
+padding-right:3px;
+}
+
+.itemsforspot .gwt-Label {
+float:left;
+}
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialog {
+border-style:solid;
+border-width:2px;
+}
+
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>spotmouth</title>
+
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+
+
+    <script type="text/javascript" src="gwt2/js/fbconnect-all.js" charset="utf-8"></script>
+    <script type="text/javascript" src="gwt2/js/phonegap.0.9.4.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="gwt2/js/ChildBrowser.js" charset="utf-8"></script>
+    <script type="text/javascript" src="gwt2/js/FBConnect.js" charset="utf-8"></script>
+
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <link rel="icon" type="image/png" href="gwt2/images/favorite.png"/>
+    <link rel="apple-touch-icon" href="gwt2/images/favorite.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <link rel="stylesheet" href="gwt2/MyWebApp.css" type="text/css"/>
+    <link rel="stylesheet" href="gwt2/iui/iui.css" type="text/css"/>
+
+
+    <link rel="stylesheet" title="Default" href="gwt2/iui/t/default/default-theme.css" type="text/css"/>
+    <link rel="stylesheet" href="gwt2/css/iui-panel-list.css" type="text/css"/>
+    <!--
+    <script type="application/x-javascript" src="gwt2/iui/iui.js"></script>
+                                             -->
+    <script type="text/javascript" language="javascript" src="gwt/mywebapp/mywebapp.nocache.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+
+        // If you want to prevent dragging, uncomment this section
+        /*
+         function preventBehavior(e)
+         {
+         e.preventDefault();
+         };
+         document.addEventListener("touchmove", preventBehavior, false);
+         */
+        function onBodyLoad() {
+
+            //if phonegap, need to toggle these
+            if (typeof navigator.device == "undefined") {
+                document.addEventListener("deviceready", onDeviceReady, false);
+            } else {
+                onDeviceReady();
+            }
+        }
+        /* When this function is called, PhoneGap has been initialized and is ready to roll */
+        function onDeviceReady() {
+            // do your thing!
+            runApp();
+        }
+
+
+    </script>
+
+
+</head>
+
+<!--                                           -->
+<!-- The body can have arbitrary html, or      -->
+<!-- you can leave the body empty if you want  -->
+<!-- to create a completely dynamic UI.        -->
+<!--                                           -->
+<body onload="onBodyLoad()">
+<div id="loading"><img src="gwt2/images/ajax-loader.gif">Loading spotmouth</div>
+
+<!-- OPTIONAL: include this if you want history support -->
+<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+        style="position:absolute;width:0;height:0;border:0"></iframe>
+
+<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+<noscript>
+    <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+
+
+        <a href="directory">Directory</a>
+
+
+        <p>spotmouth will allow you to view the information that others have thought was important about where you are
+            at.</p>
+
+        <p>spotmouth is just a fun idea that a Pittsburgh native had.</p>
+
+        <p>spotmouth allows folks to easily get interesting information based upon where they are and what their
+            interests are.
+            It also does this while respecting privacy. You won't see posts on facebook of what you are doing.</p>
+
+        <p>spotmouth does this by obtaining an address (from your mobile device or by you typing it in).
+            It will perform a search based upon your location and display nearby marks.
+            In addition to viewing the marks that others have left, you are only 4 clicks from leaving your own mark.
+            Choose "MENU" at the top, choose the "Leave Mark" button and choose your spot, then leave your mark! </p>
+
+        <p>Spotmouth allows user to "mark" spots with images, videos, audio files and text. Spotmouth uses your location
+            to determine what spots to show you.</p>
+
+        <p>spots are places (like color me mine), or license plates (as on cars), or just where you happen to be (in the
+            woods,or on a river) </p>
+
+        <p>Each spot can have one or more "groups". For example, there could be "Schenley High School" which would be a
+            spot, and for this spot there could be a bunch of groups such as "Chess Club", "Swim Team" Anybody can
+            create a group at any spot. The person who creates the group can control how the group is run.
+            For example, the group can be public and anyone can join, or it can require approval to join.</p>
+        One users are part of a group, any messages sent to the group will be sent to that person. Messages are sent via
+        email, SMS messaging, the spotmouth website, or the spotmouth mobile applications.
+        <p>You can choose to leave a mark on any of these different types of things by either going to the spot detail
+            page, or by going to the menu. </p>
+
+        <p>Another feature of spotmouth is the ability to send messages to your friends and family. When you signin, you
+            will be able to create groups to hold your different types of friends and send them messages. For example,
+            you can create a "best friends", or "work friends" groups. </p>
+
+        <p>As a spotowner, you can use spotmouth to describe your business, hours, address, create coupons, and events
+            and much more.</p>
+
+
+    </div>
+</noscript>
+
+
+</body>
+</html>

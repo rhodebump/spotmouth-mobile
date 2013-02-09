@@ -1,0 +1,880 @@
+/** Add css rules here for your application. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*
+130x130xdefault
+*/
+
+
+.mobiledevice .messagePanel {
+    width:250px !important;
+}
+
+
+
+/*
+I really want this yellow panel to span the entire page
+*/
+
+.messagePanel {
+    width:400px !important;
+    background-color: yellow;
+    border: dashed;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+#help p {
+    padding: 10px;
+    font-size: .7em;
+}
+
+
+.AvailableProducts .gwt-Label {
+    font-size:  1em;
+
+}
+
+
+.AvailableProducts .gwt-HTML {
+    font-size: 1.4em;
+}
+
+
+body { font-size:62.5%; }
+h1 { font-size: 2.4em; } /* =24px */
+p  { font-size: 1.4em; } /* =14px */
+li { font-size: 1.4em; } /* =14px? */
+li li, li p /* etc */ { font-size: 1em; }
+
+
+.mobiledevice * {
+
+    font-sizex: 35% !important;
+}
+
+
+.mobiledevice .topsearch input  {
+    width:80%;
+}
+
+
+
+/*
+donot display the delete from the uploader since we have it as content
+in our system
+*/
+.upld-status .cancel  {
+    display:none;
+}
+
+.topsearch input  {
+    widthx:300px;
+    padding-top:0px !important;
+    float:left;
+    padding-left: 10px;
+    padding-right:10px !important;
+
+
+}
+
+.topsearch .button {
+    float:left;
+}
+
+
+.topsearch .whiteButton {
+        margin-top:30px !important;
+    padding-left:10px;
+    width:1em;
+}
+
+/*
+Need to make sure this is for just the spot results, not the mark results
+*/
+.home .userimage {
+
+    display:none;
+}
+
+.whiteButton .gwt-Image {
+    float:right;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.resultholder .cbg-Rating {
+    float: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#tagsearch * {
+    float: left;
+
+}
+
+.gwt-RadioButton {
+    padding-right: 10px;
+
+}
+
+.contestVoting {
+
+    width: 100%;
+}
+
+.contestVoting * {
+    padding-left: 10px;
+    float: left;
+}
+
+.SpotBasePanel {
+
+    padding-left: 10px;
+
+}
+
+.ContestsPanel .nameLabel {
+    font-size: 1.5em;
+}
+
+.contestVoting {
+    float: left;
+    width: 100%;
+
+}
+
+.ContestsPanel .descLabel {
+    font-size: 1.3em;
+}
+
+.linky:hover {
+    text-decoration: underline;
+}
+
+.tags {
+    padding-left: 20px;
+}
+
+.results {
+
+    padding-left: 20px;
+
+}
+
+.categories {
+    font-size: 1em;
+
+}
+
+.befirst {
+    font-size: 1em;
+
+}
+
+.latest_mark_escapedjavascriptsnippet_s {
+
+    font-size: 1em;
+}
+
+.spot_geoRepoItemescapedjavascriptsnippet_s {
+    font-size: 1em;
+
+}
+
+.distance {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1.5em !important;
+}
+
+#help {
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+
+
+.h1 {
+    font-size: 1.5em;
+}
+
+#help h1 {
+    font-size: 1.5em;
+}
+
+#help {
+    BACKGROUND-COLOR: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.menuimage:hover {
+    border-style: dashed;
+    border-color: white;
+}
+.menuimage {
+    border-style: solid;
+    border-color: #6D84A2;
+}
+
+.imgholder:hover {
+    border-style: dashed;
+
+}
+
+.imgholder {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px !important;
+    float: left;
+
+}
+
+div .userimage {
+
+    float: left;
+}
+
+.spotimage {
+    float: right !important;
+
+}
+
+.middletable {
+
+    padding-left: 10px;
+    float: left;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, "R Frutiger Roman", Futura, Arial, Geneva, sans-serif;
+    background-color: #DCDDD8;
+}
+
+.topContents img {
+    padding-rightx: 1em;
+    padding-leftx: 10px;
+
+}
+
+.topsearch {
+    padding-topx: 40px;
+}
+
+
+
+
+.righty {
+    float: right;
+}
+
+.lefty {
+    float: left;
+}
+
+.toolbar .button {
+    margin-right: 10px;
+}
+
+.toolbar img {
+    margin-top: 10px;
+    float: left;
+}
+
+#bd {
+    padding-left: 20%;
+}
+
+
+
+.SpotMap img {
+    cursor: pointer;
+}
+
+.smallhelp {
+    font-size: 1em;
+
+}
+
+.menugrouping {
+
+    background-color: #6d84a2;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.upld-multiple {
+
+    padding: 20px;
+
+}
+
+.images_uploaded_preview * {
+
+    padding: 5px;
+}
+
+.images_uploaded_preview {
+
+    padding: 20px;
+}
+
+.previouslocations li {
+    width: 85%;
+
+}
+
+.previouslocations img {
+    float: right;
+}
+
+/*
+this will cause the label in fieldset to be cleared and a new line
+under it for the input
+*/
+.gwtl {
+    width: 100%;
+}
+
+/*
+this made the number of stars list box really big, so disabled following
+*/
+.gwt-ListBox {
+
+    widthx: 80%;
+}
+
+
+
+
+.messageButtons * {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/*  give the label some right padding in case textfield does not float underneath */
+.gwtl {
+    padding-right: 10px;
+}
+
+/** this is for the menu in the app */
+
+.BigIcon {
+    width: 110px;
+    height: 110px;
+    border-width: 2px;
+
+}
+
+.SmallIcon {
+    width: 64px;
+
+}
+
+.mobiledevice .ImageIcon {
+    height: 60px;
+    width:50px;
+
+}
+
+.ImageIcon {
+    font: 10pt;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    height: 100px;
+    width:90px;
+    margin:10px;
+    color: white;
+    border-width: 2px;
+
+}
+
+
+/*
+need the image associated to the
+fun stuff
+*/
+
+fieldset * {
+    padding-jjtop: 10px !important;
+    floatxx: left;
+}
+
+.gwt-CheckBox * {
+    margin-rightccc: 50px;
+    cursor: pointer;
+    cursor: hand;
+
+}
+
+.gwt-RadioButton label {
+
+    padding-left:10px;
+}
+
+.gwt-CheckBox label {
+    padding-left:10px;
+}
+
+.gwt-CheckBox {
+    padding-leftx: 50px;
+    margin-rightx: 10px;
+}
+
+.mobiledevice .whiteButton {
+    font-size: 1em;
+}
+
+.whiteButton {
+    cursor: pointer;
+    cursor: hand;
+    margin-top: 20px;
+    margin-bottomx: 20px;
+    width: 80%;
+    font-size: 1.5em;
+
+}
+
+.button {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.linky {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.nolinky {
+    cursor: default;
+
+}
+
+/** location label */
+.location {
+    text-overflow: ellipsis;
+    white-spacexx: nowrap;
+}
+
+/* make the text  in the results align to the top
+*/
+.results .gwt-Label {
+    padding-top: 0px;
+}
+
+.toolbar .button {
+    margin-top: 10px !important;
+    float: left;
+}
+
+.titlePanel img {
+    float: left;
+
+    text-align: center;
+
+}
+
+.titlePanel div {
+    padding-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.title {
+    margin-top: 10px !important;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    margin: 1px 0 0 -75px;
+    height: 45px;
+    font-size: 1.5em;
+    width: 150px;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+/*
+put the last button to the right side
+*/
+.toolbar .last {
+    float: right;
+}
+
+/*
+label floating left is
+causing issues with checkboxes
+*/
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hppnl td {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.gwt-Label {
+    padding-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+fieldset {
+    padding-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding-right: 20px !important;
+    margin-right: 20px !important;
+    padding-bottom: 20px !important;
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+}
+
+fieldset  label {
+    padding-topxx: 10px !important;
+}
+
+.gwt-TextBox {
+    width: 80%;
+
+}
+
+/*
+needed for when we disable a button
+*/
+
+button:disabled {
+    color: gray;
+}
+
+.spotnothere {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4em;
+
+}
+
+.rememberMePanel {
+    padding-left: 30px;
+}
+
+.loginbuttonpanel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fb-root {
+    display: none;
+
+}
+
+.fbpanel {
+    padding: 10px;
+}
+
+.fbpanel label {
+    font-size: 1.4em;
+}
+
+.SpotMap .gwt-Label {
+    font-size: 1.4em;
+
+    font-weight: bold;
+}
+
+li .gwt-Label {
+    text-align: left;
+}
+
+li .gwt-HTML {
+    text-align: left;
+}
+
+.LeaveMarkForm  .whiteButton {
+    margin-top: 10px;
+}
+
+.SetLocationManuallyPanel .whiteButton {
+    margin-top: 10px;
+}
+
+.leaveMarkButton {
+    margin-bottom: 50px;
+}
+
+.SetLocationManuallyPanel li {
+    background: none;
+}
+
+li {
+    font-size: 1.5em;
+
+    font-weight: bold;
+    background: url(iui/t/default/listArrow.png) no-repeat right center;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.about li {
+    background: none;
+}
+
+fieldset legend {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.panel {
+    background: #c8c8c8 url(iui/t/default/pinstripes.png);
+}
+
+.row > fieldset .gwt-Label {
+    float: left;
+}
+
+.previouslocations .uselocation-Label {
+    float: left;
+    font-size: 1em;
+    padding-right: 20px;
+}
+
+.previouslocations .remove-Label {
+    font-size: 1em;
+}
+
+.h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.mainImg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.messagepnl {
+    width: 100%;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.messagepnl .gwt-Label {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.clearing:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.buttonpanel .whiteButton {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.pickspotpnl .gwt-Image {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    font-size: 1em;
+
+}
+
+.itemsforspot .gwt-Image {
+    float: left;
+    padding-right: 3px;
+}
+
+.itemsforspot .gwt-Label {
+    float: left;
+}
+
+/** Example rules used by the template application (remove for your app) */
+
+.sendButton {
+    display: block;
+    font-size: 1em;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+    width: 300px !important;
+}
+
+.gwt-DialogBox .ImagePickerPanel {
+    width: 400px !important;
+}
+
+
+.dialog {
+    border-stylex: solid;
+    border-widthx: 2px;
+}
+
+.dialogVPanelx {
+    margin: 5px;
+}
+
+.serverResponseLabelError {
+    color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+    margin: 15px 6px 6px;
+}
+
+
+
+
+
+
+
+.gwt-RichTextArea {
+  margin:0px;
+  padding:0px;
+  border-collapse: collapse;
+   width:90%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.gwt-RichTextToolbar {
+  background-color: #C3D9FF;
+  /*padding: 2px;*/
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-up-hovering {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255);
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-PushButton-down-hovering {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-up-hovering {
+  margin-right: 2px;
+  border: 1px solid #C3D9FF;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down {
+  margin-right: 2px;
+  background-color: #E8F1FF;
+  border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+}
+
+.gwt-RichTextToolbar .gwt-ToggleButton-down-hovering {
+  margin-right: 2px;
+  background-color: #E8F1FF;
+  border: 1px solid #C3D9FF;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+}
+
+.gwt-HorizontalSplitPanel {
+  border: 8px solid #C3D9FF;
+}
+
+
+.gwt-PushButton-up {
+  background-color: #d7d7d7;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255);
+  cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-PushButton-up-hovering {
+  background-color: #d7d7d7;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-color: #E8F1FF rgb(157, 174, 205) rgb(157, 174, 205) rgb(232, 241, 255);
+  cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-PushButton-down {
+  background-color: #d7d7d7;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+  cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-PushButton-down-hovering {
+  background-color: #d7d7d7;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+  cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-PushButton-up-disabled {
+  background: #ccc;
+  color: #888;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-color: #9DAECD rgb(232, 241, 255) rgb(232, 241, 255) rgb(157, 174, 205);
+}
+
+
